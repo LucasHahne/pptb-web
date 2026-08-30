@@ -316,7 +316,7 @@ export default function SubmitToolPage() {
                                             Loading categories...
                                         </div>
                                     ) : categories.length === 0 ? (
-                                        <p className="text-sm text-red-600">No categories available. Please contact an administrator.</p>
+                                        <p className="text-sm text-red-600">No categories available. Please contact an administrator if the error persists.</p>
                                     ) : (
                                         <>
                                             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
